@@ -8,7 +8,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const corsOptions = {
-  origin: ["https://robofrontend.vercel.app", "http://localhost:3001"],
+  origin: ["http://robofrontend.vercel.app", "http://localhost:3001"],
 };
 var app = express();
 
